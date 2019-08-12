@@ -337,8 +337,8 @@ small { display: none;}
 	}
 
 	nav.hide-on-large.only.trigger {
-		display: block;
-	  position: fixed;
+	  display: flex;
+	  flex: auto;
 	  top: 0;
 	  z-index: 2;
 	}
